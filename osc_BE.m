@@ -33,4 +33,4 @@ plot(t, u, 'b', t, X_0*cos(omega*t), 'r--');
 grid on, grid minor;
 legend('numerical', 'exact', 'Location', 'northwest');
 xlabel('t');ylabel('amplitude');
-print('tmp', '-dpdf');  print('tmp', '-dpng');
+print('tmp', '-dpng');
